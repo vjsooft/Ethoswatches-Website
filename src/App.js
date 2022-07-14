@@ -1,15 +1,17 @@
 import './App.css';
+import React from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Layout from './pages/Layout'
 import Home from './pages/Home'
-import Brands from './pages/Brands'
-import RolexWatches from './pages/RolexWatches'
-import Accessories from './pages/Accessories'
-import RepairAndService from './pages/RepairAndService'
-import Locatestore from './pages/Locatestore'
-import TheWatchGuide from './pages/TheWatchGuide'
-import SpecialOffers from './pages/SpecialOffers'
-import PageNotFound from './pages/PageNotFound'
+
+const Brands = React.lazy(() => import('./pages/Brands'));
+const RolexWatches = React.lazy(() => import('./pages/Brands'));
+const Accessories = React.lazy(() => import('./pages/Accessories'));
+const RepairAndService = React.lazy(() => import('./pages/RepairAndService'));
+const Locatestore = React.lazy(() => import('./pages/Locatestore'));
+const TheWatchGuide = React.lazy(() => import('./pages/TheWatchGuide'));
+const SpecialOffers = React.lazy(() => import('./pages/SpecialOffers'));
+const PageNotFound = React.lazy(() => import('./pages/PageNotFound'));
 
 function App() {
   return (
