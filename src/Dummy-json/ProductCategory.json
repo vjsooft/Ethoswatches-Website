@@ -1,0 +1,30 @@
+[
+    {
+        "imgPath":"images/category-1.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"Special Offers", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/category-2.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"Watches for Men", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/category-3.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"Watches for Women", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/category-4.jpg",
+         "alt":"slider img", 
+         "title":"slider imag", 
+         "catOff":"Accessories", 
+         "btn":"shop now"
+    }
+]

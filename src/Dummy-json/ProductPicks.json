@@ -1,0 +1,30 @@
+[
+    {
+        "imgPath":"images/pick-1.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"California Dreamin’—Presenting Armin Strom’s Elegant Tribute 1 California Timepieces", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/pick-2.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"Oris’s Big Crown ProPilot X Calibre 400: The Essential Addition And A True Crowd-Pleaser", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/pick-3.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "catOff":"Seize The Week With The New MeisterSinger Astroscope", 
+        "btn":"shop now"
+    },
+    {
+        "imgPath":"images/pick-4.jpg",
+         "alt":"slider img", 
+         "title":"slider imag", 
+         "catOff":"Eco-Friendly Pursuits: Introducing Baume & Mercier’s Contemporary Baume Collection", 
+         "btn":"shop now"
+    }
+]

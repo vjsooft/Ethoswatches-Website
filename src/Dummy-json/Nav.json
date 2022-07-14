@@ -1,0 +1,39 @@
+[
+    {
+        "linkName":"brands", 
+        "path":"/brands"
+    },
+    {
+        "linkName":"rolex", 
+        "path":"/rolex-watches"
+    },
+    {
+        "linkName":"Watch finder", 
+        "path":"/brands"
+    },
+    {
+        "linkName":"Pre-owned watches", 
+        "path":"/brands"
+    },
+    {
+        "linkName":"Accessories", 
+        "path":"/accessories"
+    },
+    {
+        "linkName":"Repair & Service", 
+        "path":"/repair-and-service"
+    },
+    {
+        "linkName":"Boutiques", 
+        "path":"/locatestore"
+    },
+    {
+        "linkName":"The watch guide", 
+        "path":"/brands"
+    },
+    {
+        "linkName":"Special Offers", 
+        "path":"/special-offers"
+    }
+
+  ]

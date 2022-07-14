@@ -26,6 +26,7 @@ export default function PorductCategory() {
   const [discusbgChange, setDiscusbgChange] = useState('MOST-DISCUSSED-ONE')
   const [recentbgChange, setRecentbgChange] = useState('MOST-RECENT-ONE')
   const [featuredbgChange, setFeaturedbgChange] = useState('MOST-FEATURED-ONE')
+  
   //MOST READ JSON
   const mostRead = [
     {
@@ -115,7 +116,6 @@ export default function PorductCategory() {
         {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
       ],
     },
-
   ];
 
   return (

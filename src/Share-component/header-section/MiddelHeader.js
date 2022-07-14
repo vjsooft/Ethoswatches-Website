@@ -4,7 +4,6 @@ import logo from '../../assets/images/ethos-logo.svg';
 import moment from 'moment';
 
 export default function MiddelHeader() {
-  // const today = new Date().format('Month-DD-YY');
   const today = moment(new Date()).format('LLLL');
   return (
     <div className='container'>

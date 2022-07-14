@@ -1,0 +1,50 @@
+[
+    {
+        "imgPath":"../assets/images/feac-1.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }, 
+    {
+        "imgPath":"../assets/images/feac-2.jpg",
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }, 
+    {
+        "imgPath":"../assets/images/feac-3.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }, 
+    {
+        "imgPath":"../assets/images/feac-4.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }, 
+    {
+        "imgPath":"../assets/images/feac-5.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }, 
+    {
+        "imgPath":"../assets/images/feac-6.jpg", 
+        "alt":"slider img", 
+        "title":"slider imag", 
+        "braName":"Carl F. Bucherer", 
+        "collName":"Manero", 
+        "price":"6,42,600"
+    }
+]

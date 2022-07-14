@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+// Nav JSON
+import Navigation from '../../Dummy-json/Nav.json'
 export default function NavHeader() {
   return (
     <nav>
@@ -12,15 +14,11 @@ export default function NavHeader() {
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
-                  <li><NavLink to="/brands">brands</NavLink></li>
-                  <li><NavLink to="/rolex-watches">rolex</NavLink></li>
-                  <li><NavLink to="/brands">Watch finder</NavLink></li>
-                  <li><NavLink to="/brands">Pre-owned watches</NavLink></li>
-                  <li><NavLink to="/accessories">Accessories</NavLink></li>
-                  <li><NavLink to="/repair-and-service">Repair & Service</NavLink></li>
-                  <li><NavLink to="/locatestore">Boutiques</NavLink></li>
-                  <li><NavLink to="/the-watch-guide">The watch guide</NavLink></li>
-                  <li><NavLink to="/special-offers">Special Offers</NavLink></li>
+                  {
+                    Navigation.map((navbar, index)=>
+                    <li><NavLink to={navbar.path}>{navbar.linkName}</NavLink></li>
+                    )
+                  }
                 </ul>
               </div>
             </nav>

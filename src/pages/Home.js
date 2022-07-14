@@ -4,43 +4,14 @@ import PorductCategory from '../Share-component/PorductCategory'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-// Home Slider Images
-import SlideOne from '../assets/images/home-slide-1.jpg'
-import SlideTwo from '../assets/images/home-slide-2.jpg'
-import SlideThree from '../assets/images/home-slide-3.jpg'
-import SlideFour from '../assets/images/home-slide-4.jpg'
-import SlideFive from '../assets/images/home-slide-5.jpg'
-
-// Home Featured Images
-import FeaturOne from '../assets/images/feac-1.jpg'
-import FeaturTwo from '../assets/images/feac-2.jpg'
-import FeaturThree from '../assets/images/feac-3.jpg'
-import FeaturFour from '../assets/images/feac-4.jpg'
-import FeaturFive from '../assets/images/feac-5.jpg'
-import FeaturSix from '../assets/images/feac-6.jpg'
+// Home Slider JSON
+import HomeSlider from '../Dummy-json/HomeSlider.json'
+// Home Featured JSON
+import ProductFeatured from '../Dummy-json/ProductFeatured.json'
 // Home Featured Images
 import BRANDS from '../assets/images/partners.jpg'
 
-
-
-
 export default function Home() {
-  const slideItem = [
-    {imgPath:SlideOne, alt:'slider img', title:'slider imag'},
-    {imgPath:SlideTwo, alt:'slider img', title:'slider imag'},
-    {imgPath:SlideThree, alt:'slider img', title:'slider imag', dis:'The H. Moser & Cie. Endeavour Tourbillon Concept Tiger’s Eye', shortDis:'Unique Stone Dials; Limited Edition', btn:'Discover Now'},
-    {imgPath:SlideFour, alt:'slider img', title:'slider imag', dis:"Louis Moinet’s Cosmic Art Moon ‘Tiffany’ Blue Edition", shortDis:'The Latest Of The Moon And Mars Watches', btn:'Discover Now'},
-    {imgPath:SlideFive, alt:'slider img', title:'slider imag', dis:"The Oris Big Crown Pointer Date Cervo Volante Edition", shortDis:'Straps Made From Responsibly-Sourced Leather', btn:'Discover Now'},
-  ]
-  const productFeatured = [
-    {imgPath:FeaturOne, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}, 
-    {imgPath:FeaturTwo, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}, 
-    {imgPath:FeaturThree, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}, 
-    {imgPath:FeaturFour, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}, 
-    {imgPath:FeaturFive, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}, 
-    {imgPath:FeaturSix, alt:'slider img', title:'slider imag', braName:"Carl F. Bucherer", collName:'Manero', price:'6,42,600'}
-  ]
   return (
     <>
         {/* Home Banner Code Here Start */}
@@ -50,7 +21,7 @@ export default function Home() {
             <div className='col p-0'>
               <OwlCarousel className='owl-theme cus-ban-slide' loop margin={10} nav={false} items={1}>
                   {
-                    slideItem.map((item, index)=>
+                    HomeSlider.map((item, index)=>
                       <div key={index} className="position-relative">
                         <img src={item.imgPath} alt={item.alt} title={item.title}/>
                         <div className='banner-content'>
@@ -82,7 +53,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-sm-12'><h2 className="text-uppercase">FEATURED WATCHES</h2></div>
             {
-              productFeatured.map((item, index)=>
+              ProductFeatured.map((item, index)=>
               <div className='col-sm-2 position-relative'  key={index}>
               <img src={item.imgPath} alt={item.alt} title={item.title} className="img-fluid"/>
               <div className='product_sortDesc text-center'>

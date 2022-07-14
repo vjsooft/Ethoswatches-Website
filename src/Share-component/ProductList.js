@@ -1,28 +1,8 @@
 import React from 'react'
-import CatOne from '../assets/images/category-1.jpg'
-import CatTwo from '../assets/images/category-2.jpg'
-import CatThree from '../assets/images/category-3.jpg'
-import CatFour from '../assets/images/category-4.jpg'
-
-import PickOne from '../assets/images/pick-1.jpg'
-import PickTwo from '../assets/images/pick-2.jpg'
-import PickThree from '../assets/images/pick-3.jpg'
-import PickFour from '../assets/images/pick-4.jpg'
+import CATEGORY from '../Dummy-json/ProductCategory.json'
+import PICKS from '../Dummy-json/ProductPicks.json'
 
 export default function ProductList(props) {
-  const CATEGORY = [
-    {imgPath:CatOne, alt:'slider img', title:'slider imag', catOff:'Special Offers', btn:'shop now'},
-    {imgPath:CatTwo, alt:'slider img', title:'slider imag', catOff:'Watches for Men', btn:'shop now'},
-    {imgPath:CatThree, alt:'slider img', title:'slider imag', catOff:'Watches for Women', btn:'shop now'},
-    {imgPath:CatFour, alt:'slider img', title:'slider imag', catOff:'Accessories', btn:'shop now'},
-  ]
-
-  const PICKS = [
-    {imgPath:PickOne, alt:'slider img', title:'slider imag', catOff:'California Dreamin’—Presenting Armin Strom’s Elegant Tribute 1 California Timepieces', btn:'shop now'},
-    {imgPath:PickTwo, alt:'slider img', title:'slider imag', catOff:'Oris’s Big Crown ProPilot X Calibre 400: The Essential Addition And A True Crowd-Pleaser', btn:'shop now'},
-    {imgPath:PickThree, alt:'slider img', title:'slider imag', catOff:'Seize The Week With The New MeisterSinger Astroscope', btn:'shop now'},
-    {imgPath:PickFour, alt:'slider img', title:'slider imag', catOff:'Eco-Friendly Pursuits: Introducing Baume & Mercier’s Contemporary Baume Collection', btn:'shop now'},
-  ]
   return (
       <>
         <div className='col-sm-12'><h2 className="text-uppercase">{props.productTit}</h2></div>
