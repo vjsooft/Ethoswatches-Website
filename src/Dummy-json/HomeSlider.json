@@ -13,21 +13,24 @@
         "imgPath":"images/home-slide-3.jpg", 
         "alt":"slider img", 
         "title":"slider imag", 
-        "dis":"The H. Moser & Cie. Endeavour Tourbillon Concept Tiger’s Eye", 
-        "shortDis":"Unique Stone Dials; Limited Edition', btn:'Discover Now"
+        "description":"The H. Moser & Cie. Endeavour Tourbillon Concept Tiger’s Eye", 
+        "shortdescription":"Unique Stone Dials; Limited Edition', btn:'Discover Now", 
+        "btn":"shop now"
     },
     {
         "imgPath":"images/home-slide-4.jpg", 
         "alt":"slider img", 
         "title":"slider imag", 
-        "dis":"Louis Moinet’s Cosmic Art Moon ‘Tiffany’ Blue Edition", 
-        "shortDis":"The Latest Of The Moon And Mars Watches', btn:'Discover Now"
+        "description":"Louis Moinet’s Cosmic Art Moon ‘Tiffany’ Blue Edition", 
+        "shortdescription":"The Latest Of The Moon And Mars Watches', btn:'Discover Now", 
+        "btn":"shop now"
     },
     {
         "imgPath":"images/home-slide-5.jpg", 
         "alt":"slider img", 
         "title":"slider imag", 
-        "dis":"The Oris Big Crown Pointer Date Cervo Volante Edition", 
-        "shortDis":"Straps Made From Responsibly-Sourced Leather', btn:'Discover Now"
+        "description":"The Oris Big Crown Pointer Date Cervo Volante Edition", 
+        "shortdescription":"Straps Made From Responsibly-Sourced Leather', btn:'Discover Now",
+        "btn":"shop now"
     }
   ]

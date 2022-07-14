@@ -24,11 +24,16 @@ export default function Home() {
                     HomeSlider.map((item, index)=>
                       <div key={index} className="position-relative">
                         <img src={item.imgPath} alt={item.alt} title={item.title}/>
-                        <div className='banner-content'>
-                          <h1>{item?.dis}</h1>
-                          <p>{item?.shortDis}</p>
-                          <a href="" className='btn banner-btn'>{item?.btn}</a>
-                        </div>
+                        {
+                            item?.description ?
+                            <div className='banner-content'>
+                              <h1>{item?.description}</h1>
+                              <p>{item?.shortdescription}</p>
+                              <a href="" className='btn banner-btn'>{item?.btn}</a>
+                            </div>
+                            : null
+                        }
+                        
                       </div>
                     )
                   }
