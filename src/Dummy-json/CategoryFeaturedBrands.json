@@ -1,0 +1,32 @@
+[
+    {
+      "title": "MOST-FEATURED-ONE",
+      "keyFeatures":
+        [
+            {
+                "description":"Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition",
+                "date":"January 21 2020"
+            }       
+        ]
+    },
+    {
+        "title": "MOST-FEATURED-TWO",
+        "keyFeatures" : 
+            [
+                {
+                    "description":"Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing", 
+                    "date":"January 21 2020"
+                }
+            ]
+      },
+      {
+        "title": "MOST-FEATURED-THREE",
+        "keyFeatures" : 
+        [
+            {
+                "description":"The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection", 
+                "date":"January 21 2020"
+            }
+        ]
+      }
+]

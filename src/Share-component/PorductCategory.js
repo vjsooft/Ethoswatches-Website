@@ -1,25 +1,27 @@
 import React, {useState} from 'react'
-
+import  CategoryMostRead from '../Dummy-json/CategoryMostRead.json'
+import  CategoryMostDiscussed from '../Dummy-json/CategoryMostDiscussed.json'
+import  CategoryRecentArtical from '../Dummy-json/CategoryRecentArtical.json'
+import  CategoryfeaturedBrands from '../Dummy-json/CategoryFeaturedBrands.json'
 // MOST READ Images
 import MustOne from '../assets/images/must-1.jpg'
 import MustTwo from '../assets/images/must-2.jpg'
 import MustThree from '../assets/images/must-3.jpg'
 
-
 //MOST DISCUSSED Images
-import DiscusOne from '../assets/images/must-1.jpg'
-import DiscusTwo from '../assets/images/must-2.jpg'
-import DiscusThree from '../assets/images/must-3.jpg'
+import DiscusOne from '../assets/images/discussed-1.jpg'
+import DiscusTwo from '../assets/images/discussed-2.jpg'
+import DiscusThree from '../assets/images/discussed-3.jpg'
 
 //RECENT ARTICLES Images
-import RecentOne from '../assets/images/must-1.jpg'
-import RecentTwo from '../assets/images/must-2.jpg'
-import RecentThree from '../assets/images/must-3.jpg'
+import RecentOne from '../assets/images/artical-1.jpg'
+import RecentTwo from '../assets/images/artical-2.jpg'
+import RecentThree from '../assets/images/artical-3.jpg'
 
 //FEATURED BRANDS Images
-import FeaturedOne from '../assets/images/must-1.jpg'
-import FeaturedTwo from '../assets/images/must-2.jpg'
-import FeaturedThree from '../assets/images/must-3.jpg'
+import FeaturedOne from '../assets/images/brands-1.jpg'
+import FeaturedTwo from '../assets/images/brands-2.jpg'
+import FeaturedThree from '../assets/images/brands-3.jpg'
 
 export default function PorductCategory() {
   const [readbgChange, setReadbgChange] = useState('MOST-READ-ONE')
@@ -28,95 +30,95 @@ export default function PorductCategory() {
   const [featuredbgChange, setFeaturedbgChange] = useState('MOST-FEATURED-ONE')
   
   //MOST READ JSON
-  const mostRead = [
-    {
-      title: "MOST-READ-ONE",
-      keyFeatures:[
-        {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-READ-TWO",
-      keyFeatures : [
-        {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-READ-THREE",
-      keyFeatures : [
-        {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
-      ],
-    },
+  // const mostRead = [
+  //   {
+  //     title: "MOST-READ-ONE",
+  //     keyFeatures:[
+  //       {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-READ-TWO",
+  //     keyFeatures : [
+  //       {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-READ-THREE",
+  //     keyFeatures : [
+  //       {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
+  //     ],
+  //   },
 
-  ];
+  // ];
 
 //MOST DISCUSSED JSON
-  const mostDiscussed= [
-    {
-      title: "MOST-DISCUSSED-ONE",
-      keyFeatures:[
-        {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-DISCUSSED-TWO",
-      keyFeatures : [
-        {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-DISCUSSED-THREE",
-      keyFeatures : [
-        {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
-      ],
-    },
+  // const mostDiscussed= [
+  //   {
+  //     title: "MOST-DISCUSSED-ONE",
+  //     keyFeatures:[
+  //       {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-DISCUSSED-TWO",
+  //     keyFeatures : [
+  //       {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-DISCUSSED-THREE",
+  //     keyFeatures : [
+  //       {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
+  //     ],
+  //   },
 
-  ];
+  // ];
 
   //RECENT ARTICLES JSON
-  const recentArtical = [
-    {
-      title: "MOST-RECENT-ONE",
-      keyFeatures:[
-        {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-RECENT-TWO",
-      keyFeatures : [
-        {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-RECENT-THREE",
-      keyFeatures : [
-        {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
-      ],
-    },
+  // const recentArtical = [
+  //   {
+  //     title: "MOST-RECENT-ONE",
+  //     keyFeatures:[
+  //       {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-RECENT-TWO",
+  //     keyFeatures : [
+  //       {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-RECENT-THREE",
+  //     keyFeatures : [
+  //       {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
+  //     ],
+  //   },
 
-  ];
+  // ];
   
   //FEATURED BRANDS JSON
-  const featuredBrands= [
-    {
-      title: "MOST-FEATURED-ONE",
-      keyFeatures:[
-        {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-FEATURED-TWO",
-      keyFeatures : [
-        {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
-      ],
-    },
-    {
-      title: "MOST-FEATURED-THREE",
-      keyFeatures : [
-        {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
-      ],
-    },
-  ];
+  // const featuredBrands= [
+  //   {
+  //     title: "MOST-FEATURED-ONE",
+  //     keyFeatures:[
+  //       {dis:'Exclusively Bronze: The Sophisticated Oris Big Crown Pointer Date Bronze Dial Edition', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-FEATURED-TWO",
+  //     keyFeatures : [
+  //       {dis:'Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra Racing', date:'January 21 2020'}
+  //     ],
+  //   },
+  //   {
+  //     title: "MOST-FEATURED-THREE",
+  //     keyFeatures : [
+  //       {dis:'The New Breed: Girard-Perregaux’s Laureato Absolute Collection Breathes New Life Into The Luxury Sports Watch Collection', date:'January 21 2020'}
+  //     ],
+  //   },
+  // ];
 
   return (
     <div className='row'>
@@ -140,15 +142,15 @@ export default function PorductCategory() {
             </div>
             <div className="bg-changer col-sm-6">
               {
-                mostRead.map((itemData, index)=>
-                  <ul key={index} onMouseEnter={() =>{ setReadbgChange(itemData.title)}}>
-                      { itemData.keyFeatures.map((te, ind)=>
-                          <li key={ind} className="bb-with-m-p">
+                CategoryMostRead.map((categoryRead, index)=>
+                  <ul key={index} onMouseEnter={() =>{ setReadbgChange(categoryRead.title)}}>
+                      { categoryRead.keyFeatures.map((categoryReadListing, index)=>
+                          <li key={index} className="bb-with-m-p">
                             <p>
                               <span>Review</span>
-                              {te.dis}
+                              {categoryReadListing.description}
                             </p>
-                            <p className="cus-publishDate">{te.date}</p>
+                            <p className="cus-publishDate">{categoryReadListing.date}</p>
                           </li>
                         )
                       }
@@ -179,15 +181,15 @@ export default function PorductCategory() {
             </div>
             <div className="bg-changer col-sm-6">
               {
-                mostDiscussed.map((itemData, index)=>
-                  <ul key={index} onMouseEnter={() =>{ setDiscusbgChange(itemData.title)}}>
-                    {itemData.keyFeatures.map((te, ind)=>
-                        <li key={ind} className="bb-with-m-p">
+                CategoryMostDiscussed.map((categoryDiscussed, index)=>
+                  <ul key={index} onMouseEnter={() =>{ setDiscusbgChange(categoryDiscussed.title)}}>
+                    {categoryDiscussed.keyFeatures.map((categoryDiscussedListing, index)=>
+                        <li key={index} className="bb-with-m-p">
                           <p>
                             <span>Review</span>
-                            {te.dis}
+                            {categoryDiscussedListing.description}
                           </p>
-                          <p className="cus-publishDate">{te.date}</p>
+                          <p className="cus-publishDate">{categoryDiscussedListing.date}</p>
                         </li>
                       )
                     }
@@ -218,16 +220,16 @@ export default function PorductCategory() {
               </div>
               <div className="bg-changer col-sm-6">
                 {
-                  recentArtical.map((itemData, index)=>
-                    <ul key={index} onMouseEnter={() =>{ setRecentbgChange(itemData.title)}}>
+                  CategoryRecentArtical.map((recentArtical, index)=>
+                    <ul key={index} onMouseEnter={() =>{ setRecentbgChange(recentArtical.title)}}>
                       {
-                        itemData.keyFeatures.map((te, ind)=>
-                          <li key={ind} className="bb-with-m-p">
+                        recentArtical.keyFeatures.map((recentArticalListing, index)=>
+                          <li key={index} className="bb-with-m-p">
                             <p>
                               <span>Review</span>
-                              {te.dis}
+                              {recentArticalListing.description}
                             </p>
-                            <p className="cus-publishDate">{te.date}</p>
+                            <p className="cus-publishDate">{recentArticalListing.date}</p>
                           </li>
                         )
                       }
@@ -258,15 +260,15 @@ export default function PorductCategory() {
             </div>
             <div className="bg-changer col-sm-6">
               {
-                featuredBrands.map((itemData, index)=>
-                  <ul key={index} onMouseEnter={() =>{ setFeaturedbgChange(itemData.title)}}>
-                    {itemData.keyFeatures.map((te, ind)=>
-                    <li key={ind} className="bb-with-m-p">
+                CategoryfeaturedBrands.map((featuredBrands, index)=>
+                  <ul key={index} onMouseEnter={() =>{ setFeaturedbgChange(featuredBrands.title)}}>
+                    {featuredBrands.keyFeatures.map((featuredBrandsListing, index)=>
+                    <li key={index} className="bb-with-m-p">
                           <p>
                             <span>Review</span>
-                            {te.dis}
+                            {featuredBrandsListing.description}
                           </p>
-                          <p className="cus-publishDate">{te.date}</p>
+                          <p className="cus-publishDate">{featuredBrandsListing.date}</p>
                         </li>
                       )
                     }

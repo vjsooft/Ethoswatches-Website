@@ -25,9 +25,9 @@ export default function Home() {
                       <div key={index} className="position-relative">
                         <img src={item.imgPath} alt={item.alt} title={item.title}/>
                         <div className='banner-content'>
-                          <h1>{item.dis}</h1>
-                          <p>{item.shortDis}</p>
-                          <a href="" className='btn banner-btn'>{item.btn}</a>
+                          <h1>{item?.dis}</h1>
+                          <p>{item?.shortDis}</p>
+                          <a href="" className='btn banner-btn'>{item?.btn}</a>
                         </div>
                       </div>
                     )

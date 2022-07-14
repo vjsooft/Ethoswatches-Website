@@ -286,7 +286,19 @@ nav {
 }
 .bg-changer>.tab-pane.active{
   display: block;
+  position: relative;
 }
+.bg-changer>.tab-pane.active:before{
+  content: "";
+  position: absolute;
+  border-right: 9px solid #fbfbfb;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  right: 0;
+  top: 35px;
+}
+.bg-changer>.tab-pane:nth-child(2).active:before{top: 50%;}
+.bg-changer>.tab-pane:nth-child(3).active:before{top: auto;bottom:25px;}
 .bb-with-m-p{
   border-bottom: 1px solid #f4f4f4;
   margin-bottom: 1.2rem;
