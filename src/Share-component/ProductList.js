@@ -9,22 +9,26 @@ export default function ProductList(props) {
         {
           props.categ == 'CATEGORY' ?
           CATEGORY.map((item, index)=> 
-          <div className='col-sm-3 position-relative' key={index}>
-            <img src={item.imgPath} alt={item.alt} title={item.title} className="img-fluid"/>
-            <div className='product-content'>
-              <h3>{item.catOff}</h3>
-              <a href="" className='btn banner-btn'>{item.btn}</a>
-            </div>
+          <div className='col-sm-3' key={index}>
+            <a href='' className='cus-card-overlay'>
+              <img src={item.imgPath} alt={item.alt} title={item.title} className="img-fluid cus-img-animate"/>
+              <div className='product-content'>
+                <h3>{item.catOff}</h3>
+                <span className='btn cus-shopNow'>{item.btn}</span>
+              </div>
+            </a>
           </div>
           )
         : 
         PICKS.map((item, index)=>
-          <div className='col-sm-3 position-relative' key={index}>
-            <img src={item.imgPath} alt={item.alt} title={item.title} className="img-fluid"/>
-            <div className='product-content'>
-              <h3>{item.catOff}</h3>
-              <a href="" className='btn banner-btn'>{item.btn}</a>
-            </div>
+          <div className='col-sm-3' key={index}>
+            <a href='' className='cus-card-overlay'>
+              <img src={item.imgPath} alt={item.alt} title={item.title} className="img-fluid cus-img-animate"/>
+              <div className='product-content'>
+                <h3>{item.catOff}</h3>
+                <span className='btn cus-shopNow'>{item.btn}</span>
+              </div>
+            </a>
           </div>
           )
         

@@ -125,7 +125,7 @@ export default function PorductCategory() {
         {/* MOST READ Code Here Start */}
         <div className='col-sm-6 mb-2 pb-2'>
           <div className='row'>
-            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p">
+            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p pb-3">
 							<h3 className="text-uppercase">Most Read</h3>
 							<p><a className="viewAll" href="https://www.ethoswatches.com/the-watch-guide/all-time/" title="View All">View all <i className="fa-solid fa-angle-right"></i></a></p>
 						</div>
@@ -164,7 +164,7 @@ export default function PorductCategory() {
         {/* MOST DISCUSSED Code Here Start */}
         <div className='col-sm-6 mb-2 pb-2'>
           <div className='row'>
-            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p">
+            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p pb-3">
 							<h3 className="text-uppercase">MOST DISCUSSED</h3>
 							<p><a className="viewAll" href="https://www.ethoswatches.com/the-watch-guide/all-time/" title="View All">View all <i className="fa-solid fa-angle-right"></i></a></p>
 						</div>
@@ -203,7 +203,7 @@ export default function PorductCategory() {
          {/* RECENT ARTICLES Code Here Start */}
          <div className='col-sm-6 mb-2 pb-2'>
             <div className='row'>
-              <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p">
+              <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p pb-3">
                 <h3 className="text-uppercase">RECENT ARTICLES</h3>
                 <p><a className="viewAll" href="https://www.ethoswatches.com/the-watch-guide/all-time/" title="View All">View all <i className="fa-solid fa-angle-right"></i></a></p>
               </div>
@@ -243,7 +243,7 @@ export default function PorductCategory() {
         {/* FEATURED BRANDS Code Here Start */}
         <div className='col-sm-6 mb-2 pb-2'>
           <div className='row'>
-            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p">
+            <div className="col-sm-12 d-flex justify-content-between align-items-flex-start bb-with-m-p pb-3">
                 <h3 className="text-uppercase">FEATURED BRANDS</h3>
                 <p><a className="viewAll" href="https://www.ethoswatches.com/the-watch-guide/all-time/" title="View All">View all <i className="fa-solid fa-angle-right"></i></a></p>
               </div>
